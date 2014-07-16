@@ -7,12 +7,12 @@ margin-top: 2.5rem;
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 500;
 }
 
 h2 {
-  font-size: 1rem;
+  font-size: 1.75rem;
 }
 
 p {
@@ -27,38 +27,35 @@ footer {
   margin-top: 15rem;
   border-top: .1rem solid #1187ee;
   padding-top: 1rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  margin-top: 30rem;
 }
 
-
 .henry {
-width: 35rem;
-height: 35rem;
-position:absolute;
-margin-left: -25rem;
+width: 60rem;
+height: 60rem;
+position: absolute;
+margin-left: -37rem;
 top: .1rem;
 }
 
 .container {
   border-bottom: .1rem solid #1187ee;
   padding-bottom: 1rem;
-}
-
-.pages1 {
-font-family: 'Avenir Next';
-font-size: 5rem;
-display: inline;
-word-spacing: 15rem;
-font-weight: 400;
 
 }
 
-.pages2 {
+.row {
 font-family: 'Avenir Next';
-font-size: 5rem;
-display: inline;
-word-spacing: 16rem;
-position:fixed;
-bottom: 10rem;
-font-weight: 400;
+font-size: 3rem;
+margin-left: 5rem;
+margin-top: 5rem;
+}
+
+.row2 {
+font-family: 'Avenir Next';
+font-size: 3rem;
+margin-left: 5rem;
+margin-top: 15rem;
+
 }
