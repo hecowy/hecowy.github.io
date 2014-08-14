@@ -1,47 +1,57 @@
 /*
     Nice colors - #5d81a2, #446182, #467180
     Gray -  #777777
-    Made by Henry in San Antonio, TX. 2014
+    Made by Henry 2014
 
 */
 body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
-  background-color: #5d81a2;
+  background-color: #777777;
   line-height: 0;
   font-weight: 400;
   margin: 0;
 }
 
-h1 {
+h1, h2 {
   color: white;
   text-transform: uppercase;
   letter-spacing: .2em;
-  font-size: 2rem;
-  line-height: 1;
-  margin-top: 0;
-  padding-bottom: 1rem;
+}
 
+h1 {
+  font-size: 2rem;
 }
 
 h2 {
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: .2em;
   font-size: 1.5rem;
   line-height: 1;
 }
 
 p {
   font-size: 2rem;
-  margin-top: 5rem;
-  padding-bottom: 2rem;
+  font-weight: 200;
+  margin-top: 4rem;
+  padding-bottom: .5rem;
 }
 
 a {
   text-decoration: none;
   color: white;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  font-weight: 100;
 }
 
+footer {
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  font-weight: 100;
+  font-size: 1rem;
+  float: right;
+  border-top: .1rem solid white;
+}
 .container {
   max-width: 75rem;
   margin-right: auto;
@@ -52,29 +62,13 @@ a {
 
 .background {
   padding: 1rem;
-  background-color: #777777;
-}
-
-.nav {
-  padding-bottom: 1rem;
-}
-
-.nav > a {
-  padding-right: 0.75rem;
-  padding-left: 0.75rem;
+  background-color: #5d81a2;
+  padding-bottom: 13.5rem;
 }
 
 .projects {
   font-size: 5rem;
   color: white;
-}
-
-.projects > a {
-  color: white;
-  font-size: 10rem;
-  line-height: .5;
-  margin-top: 0;
-  padding-bottom: 1rem;
 }
 
 .drawings {
@@ -85,10 +79,11 @@ a {
   font-size: 5rem;
   color: white;
 }
+
 .column {
   margin-right: auto;
   margin-left: auto;
-  margin-top: 4rem;
+  margin-top: 3rem;
   padding-left: 1rem;
 
 }
