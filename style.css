@@ -30,8 +30,9 @@ h2 {
 p {
   font-size: 2rem;
   font-weight: 200;
-  margin-top: 4rem;
-  padding-bottom: .5rem;
+  margin-top: 3rem;
+  text-transform: uppercase;
+  font-weight: 100;
 }
 
 a {
@@ -44,26 +45,34 @@ a {
   font-weight: 100;
 }
 
+a:hover {
+  color: #14eb46;
+}
 footer {
   text-transform: uppercase;
   letter-spacing: .2em;
   font-weight: 100;
   font-size: 1rem;
   float: right;
-  border-top: .1rem solid white;
+  border-top: .1rem solid #14eb46;
+  margin-top: 2rem;
 }
+
 .container {
   max-width: 75rem;
   margin-right: auto;
   margin-left: auto;
   line-height: 1.25rem;
-
 }
 
 .background {
   padding: 1rem;
   background-color: #5d81a2;
   padding-bottom: 13.5rem;
+}
+
+.nav > a {
+  border-left: .1rem solid #14eb46;
 }
 
 .projects {
@@ -75,12 +84,14 @@ footer {
   font-size: 5rem;
   color: white;
 }
-.writing {
+
+
+.aboutme {
   font-size: 5rem;
   color: white;
 }
 
-.column {
+.row {
   margin-right: auto;
   margin-left: auto;
   margin-top: 3rem;
