@@ -10,12 +10,13 @@ body {
   line-height: 0;
   font-weight: 400;
   margin: 0;
+  color: white;
 }
 
-h1, h2 {
-  color: white;
+h1, h2{
   text-transform: uppercase;
   letter-spacing: .2em;
+  line-height: 1;
 }
 
 h1 {
@@ -23,16 +24,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5rem;
-  line-height: 1;
-}
-
-p {
-  font-size: 2rem;
-  font-weight: 200;
-  margin-top: 3rem;
-  text-transform: uppercase;
-  font-weight: 100;
+  font-size: 1rem;
 }
 
 a {
@@ -45,6 +37,15 @@ a {
   font-weight: 100;
 }
 
+p {
+  font-size: 1rem;
+  font-weight: 200;
+  margin-top: 3rem;
+  text-transform: uppercase;
+  font-weight: 100;
+  line-height: 2;
+}
+
 a:hover {
   color: #14eb46;
 }
@@ -54,8 +55,9 @@ footer {
   letter-spacing: .2em;
   font-weight: 100;
   font-size: 1rem;
-  float: right;
   margin-top: 2rem;
+  line-height: 1;
+  padding-left: 1rem;
 }
 
 .container {
@@ -65,38 +67,18 @@ footer {
   line-height: 1.25rem;
 }
 
-.background {
+.header {
   padding: 1rem;
   background-color: #5d81a2;
-  padding-bottom: 13.5rem;
 }
 
 .nav > a {
   border-left: .1rem solid #14eb46;
-}
-
-.projects {
-  font-size: 5rem;
-  color: white;
-}
-
-.drawings {
-  font-size: 5rem;
-  color: white;
-}
-
-
-.aboutme {
-  font-size: 5rem;
-  color: white;
-}
-
-.row {
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 3rem;
   padding-left: 1rem;
+}
 
+.thoughts {
+  padding: 1rem;
 }
 
 @media screen and (min-width: 48em) {
@@ -109,6 +91,6 @@ footer {
   }
 
   p {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 }
