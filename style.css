@@ -20,6 +20,7 @@ h1, h2 {
 
 h1 {
   font-size: 2rem;
+  line-height: .85;
 }
 
 h2 {
@@ -28,11 +29,11 @@ h2 {
 }
 
 p {
-  font-size: 2rem;
-  font-weight: 200;
-  margin-top: 3rem;
+  font-size: 1rem;
   text-transform: uppercase;
   font-weight: 100;
+  line-height: .85;
+  margin-top: -1rem;
 }
 
 a {
@@ -109,7 +110,7 @@ footer {
   }
 
   p {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 
   a {
