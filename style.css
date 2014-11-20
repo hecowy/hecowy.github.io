@@ -33,6 +33,7 @@ a {
 
 a:hover {
   color: #0c8ff3;
+  border-bottom: .25em solid #0c8ff3;
 }
 
 ul {
